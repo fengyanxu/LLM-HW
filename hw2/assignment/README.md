@@ -45,9 +45,10 @@ hw2\.venv\Scripts\python.exe hw2\assignment\scripts\07_train_fasttext.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\11_sensitivity.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\12_tfidf_baseline.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\08_make_figures.py
-hw2\.venv\Scripts\python.exe hw2\assignment\scripts\09_make_report.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\10_verify.py
 ```
+
+`report.md` 由作者根据实验结果手写定稿，`09_make_report.py` 仅作为内部整理草稿的辅助工具，不参与一键流水线。
 
 首次运行需要下载 10,000 条 THUCNews 抽样（约 100 个批次，已缓存在 `data/thucnews/batches/`，可断点续跑）；词向量训练约 2—3 分钟，分类器训练数秒。
 

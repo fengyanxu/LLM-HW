@@ -48,8 +48,7 @@
 - [x] **D1 图表**：数据概览、词向量相似度、分类曲线、8 类混淆矩阵、轮数敏感性  
       命令：`... 08_make_figures.py`  
       产物：`figures/01_data_overview.png`、`02_embedding_similarity.png`、`03_classification_curve.png`、`04_confusion_8.png`、`05_epoch_sensitivity.png`（均附 CSV）
-- [x] **D2 报告**：由实测 JSON/CSV 生成  
-      命令：`... 09_make_report.py`  
+- [x] **D2 报告**：作者根据实测结果手写定稿，正文不再由脚本自动生成  
       产物：`report.md`
 - [x] **D3 一致性校验**：检查 10,000 条抽样、480 篇分类集、6 组分类结果、图表与报告  
       命令：`... 10_verify.py`

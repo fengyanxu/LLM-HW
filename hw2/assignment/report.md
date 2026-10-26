@@ -1,6 +1,8 @@
-# HW2 实验报告：Gensim 表示学习与 FastText 新闻分类
+报告人：冯言旭
 
-> 课程页面 `question @34` · 本报告由 `scripts/09_make_report.py` 从 `results/` 与 `figures/` 自动生成
+仓库地址：https://github.com/fengyanxu/LLM-HW
+
+# HW2 实验报告：Gensim 表示学习与 FastText 新闻分类
 
 ## 摘要
 
@@ -57,7 +59,9 @@
 | 农业 | 48 | 12 | 60 |
 | 法治 | 48 | 12 | 60 |
 
-![数据概览：THUCNews 清洗前后与 8 类分类集构成](figures/01_data_overview.png)
+![图 1：THUCNews 清洗前后与 8 类分类集构成](https://raw.githubusercontent.com/fengyanxu/LLM-HW/main/hw2/assignment/figures/01_data_overview.png)
+
+*图 1：THUCNews 清洗前后的文章规模，以及 8 类分类集的训练/测试构成。*
 
 需要说明：标题规则不是人工金标准，仍会留下少量交叉主题（例如银行腐败案、带“大学生”的体育报道）。课程页面的参考实现也明确保留了这类歧义。分类器输入**只使用正文，不使用标题**，以避免“标题直接给出标签”的循环。
 
@@ -104,7 +108,9 @@ FastText 能为未登录词合成向量，但“能返回数值”不等于“�
 | Word2Vec | 0.5672 | 0.2538 | 0.3134 |
 | FastText | 0.6224 | 0.2915 | 0.3309 |
 
-![主题词组内/组间相似度](figures/02_embedding_similarity.png)
+![图 2：四组主题词的组内 / 组间平均余弦相似度](https://raw.githubusercontent.com/fengyanxu/LLM-HW/main/hw2/assignment/figures/02_embedding_similarity.png)
+
+*图 2：四组主题词的组内与组间平均余弦相似度。*
 
 两种模型的组内相似度都高于组间，说明向量确实捕捉到了主题聚类；FastText 的组内值更高，部分来自字符子词带来的字面相似。该指标只反映这四组词，不能外推为“FastText 全面更好”。
 
@@ -126,7 +132,9 @@ FastText 能为未登录词合成向量，但“能返回数值”不等于“�
 | 4 类 | 87.50% | 0.8745 | 64.58% | 0.6374 | 5.283 | 1.05 |
 | 8 类 | 81.25% | 0.8108 | 37.50% | 0.3333 | 6.294 | 2.027 |
 
-![分类准确率与 Macro-F1](figures/03_classification_curve.png)
+![图 3：2/4/8 类分类准确率与 Macro-F1](https://raw.githubusercontent.com/fengyanxu/LLM-HW/main/hw2/assignment/figures/03_classification_curve.png)
+
+*图 3：导入预训练词向量与从零训练在 2/4/8 类上的准确率与 Macro-F1。*
 
 读法：2 类任务本身容易，两组都接近上限；4 类开始出现差距；在固定 25 轮的主设置下，8 类时预训练组明显优于从零组（4.5 节说明这部分差距也包含收敛速度）。原因不是“预训练向量更懂语义”这么简单，而是从零训练只有 384 篇带标签文章，100 维词向量和分类边界都要从很少的监督信号里学；导入的词向量已经把新闻语料的共现结构带了进来。
 
@@ -143,7 +151,9 @@ FastText 能为未登录词合成向量，但“能返回数值”不等于“�
 | 农业 | 75.00% | 75.00% | 75.00% | 12 |
 | 法治 | 78.57% | 91.67% | 84.62% | 12 |
 
-![8 类混淆矩阵](figures/04_confusion_8.png)
+![图 4：8 类 FastText 混淆矩阵](https://raw.githubusercontent.com/fengyanxu/LLM-HW/main/hw2/assignment/figures/04_confusion_8.png)
+
+*图 4：8 类 FastText（导入预训练词向量）的混淆矩阵。*
 
 8 类测试集共 96 篇，模型错 18 篇。错误主要集中在主题交叉的报道，例如科技/农业（农业科技）、文化/教育（出版社、校园文化）、法治/金融（银行腐败案）。这说明“标题规则标签”本身存在噪声，不能把全部错误归因于模型。
 
@@ -174,7 +184,9 @@ FastText 能为未登录词合成向量，但“能返回数值”不等于“�
 | 50 | 85.42% | 0.8531 | 38.54% | 0.2843 |
 | 100 | 89.58% | 0.8956 | 81.25% | 0.8118 |
 
-![8 类训练轮数敏感性](figures/05_epoch_sensitivity.png)
+![图 5：8 类训练轮数敏感性](https://raw.githubusercontent.com/fengyanxu/LLM-HW/main/hw2/assignment/figures/05_epoch_sensitivity.png)
+
+*图 5：8 类任务中，准确率与 Macro-F1 随训练轮数的变化。*
 
 25 轮时从零组明显欠拟合；100 轮时升到 81.25%，已经追平预训练组 25 轮的水平。预训练向量的作用更像是“把收敛所需轮数降下来”，而不是单纯提高上限：100 轮时预训练组仍达到 89.58%，说明表示质量也有贡献。
 
@@ -196,7 +208,7 @@ FastText 能为未登录词合成向量，但“能返回数值”不等于“�
 
 **类别数。** 2 → 4 → 8 类时，类别边界越来越细，且测试集固定为每类 12 篇。2 类的 1.0 附近结果不能外推到 8 类；类别增加本身就是难度增加。
 
-**与课程页面参考数值的差异。** 课程页面的参考实现报告 2 类 1.000、4 类 0.958、8 类 0.917（预训练向量）。本次为 95.83%、87.50%、81.25%。差异来自抽样位置、清洗阈值、标题规则、jieba 版本、单次划分和 fastText 版本；本报告只报告本目录可复现的实测值，不把参考数值当作本次结果。
+**与课程页面参考数值的差异。** 课程页面的参考实现报告 2 类 1.000、4 类 0.958、8 类 0.917（预训练向量）。本次为 95.83%、87.50%、81.25%。差异来自抽样位置、清洗阈值、标题规则、jieba 版本、单次划分和 fastText 版本；本文只报告本次实验的实测值，不把参考数值当作本次结果。
 
 **局限。** ①标题规则标签有噪声，且 8 类每类只有 60 篇；②只做了一次固定划分，没有置信区间；③fastText 的 `pretrainedVectors` 只导入词表内词向量，不含 Gensim 的完整子词参数；④分类器输入截断到 500 词，长文的尾部信息丢失；⑤Word2Vec/FastText 只训练 5 轮，未做参数搜索。
 
@@ -225,7 +237,6 @@ hw2\.venv\Scripts\python.exe hw2\assignment\scripts\06_analyze_embeddings.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\03_build_classification.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\07_train_fasttext.py
 hw2\.venv\Scripts\python.exe hw2\assignment\scripts\08_make_figures.py
-hw2\.venv\Scripts\python.exe hw2\assignment\scripts\09_make_report.py
 ```
 
 `01_fetch_thucnews.py` 会把 100 个批次缓存到 `data/thucnews/batches/`，中断后可续跑；`03_build_classification.py` 只依赖 `hw1/data/raw/199801/` 的原始语料。完整执行清单见 `CHECKLIST.md`。
@@ -242,7 +253,6 @@ hw2\.venv\Scripts\python.exe hw2\assignment\scripts\09_make_report.py
 | `scripts/06_analyze_embeddings.py` | 近邻、OOV、相似度 |
 | `scripts/07_train_fasttext.py` | 预训练 vs 从零的 fastText 分类 |
 | `scripts/08_make_figures.py` | 图表 |
-| `scripts/09_make_report.py` | 本报告 |
 | `scripts/11_sensitivity.py` | 8 类训练轮数敏感性 |
 | `scripts/12_tfidf_baseline.py` | TF-IDF + SVM 诊断基线 |
 | `data/thucnews/` | 抽样、清洗语料、分词语料 |

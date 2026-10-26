@@ -16,7 +16,6 @@ $scripts = @(
     '11_sensitivity.py',
     '12_tfidf_baseline.py',
     '08_make_figures.py',
-    '09_make_report.py',
     '10_verify.py'
 )
 foreach ($name in $scripts) {
