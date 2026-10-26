@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.playwright-cli/
+
+# 本地工具链与大文件（由各作业脚本重建）
+.tools/
+.git-fresh/
+**/.cache/
+**/.tmp/
+hw1/.tools/
+hw1/.venv/
+hw1/data/raw/
+hw1/models/
+hw2/.venv/
+hw2/data/raw/
+hw2/models/
+hw2/assignment/models/
+hw2/assignment/data/thucnews/raw.jsonl
+hw2/assignment/data/thucnews/batches/
+hw2/assignment/data/thucnews/clean.jsonl
+hw2/assignment/data/thucnews/segmented.txt
+hw2/assignment/data/peopledaily/articles.jsonl
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db

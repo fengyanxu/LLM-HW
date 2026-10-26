@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "method": "paper_unigram",
+    "n_classes": 4,
+    "validation_macro_f1": 0.5803651510805126,
+    "accuracy": 0.5107142857142857,
+    "macro_f1": 0.49561409267321743,
+    "macro_f1_ci_low": 0.3821040278609109,
+    "macro_f1_ci_high": 0.5551714430042876,
+    "selected_lr": 0.5,
+    "selected_epoch": 19,
+    "fit_select_seconds": 14.773222099996929,
+    "feature_count": 15870,
+    "n_train": 979,
+    "n_validation": 267,
+    "n_test": 280
+  },
+  "classes": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "confusion_matrix": [
+    [
+      17,
+      10,
+      9,
+      23
+    ],
+    [
+      12,
+      39,
+      10,
+      28
+    ],
+    [
+      4,
+      8,
+      51,
+      17
+    ],
+    [
+      5,
+      5,
+      6,
+      36
+    ]
+  ]
+}

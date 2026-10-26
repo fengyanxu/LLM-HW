@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/raw/
+data/processed/
+models/
+logs/
+*.pdf
+*.rar
+*.bin
+*.npy
+*.npz
+results/predictions/
+results/features/
+.playwright-cli/
+output/playwright/

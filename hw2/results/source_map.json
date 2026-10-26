@@ -1,0 +1,260 @@
+[
+  {
+    "file": "corpora/dictionary.py",
+    "function": "doc2bow",
+    "start": 208,
+    "end": 272,
+    "source_sha256": "d8b27e28a3cc4e14f1fb0652dd3356f5fc1d2487f84107ef078a72f8a1c04f39",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/corpora/dictionary.py#L208"
+  },
+  {
+    "file": "corpora/dictionary.py",
+    "function": "filter_extremes",
+    "start": 308,
+    "end": 379,
+    "source_sha256": "d8b27e28a3cc4e14f1fb0652dd3356f5fc1d2487f84107ef078a72f8a1c04f39",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/corpora/dictionary.py#L308"
+  },
+  {
+    "file": "models/tfidfmodel.py",
+    "function": "initialize",
+    "start": 432,
+    "end": 465,
+    "source_sha256": "e91d5e890dda6aa9c55f11e8e8fb5736835937f654863ab23fb7a18b1634effd",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/tfidfmodel.py#L432"
+  },
+  {
+    "file": "models/tfidfmodel.py",
+    "function": "__getitem__",
+    "start": 467,
+    "end": 543,
+    "source_sha256": "e91d5e890dda6aa9c55f11e8e8fb5736835937f654863ab23fb7a18b1634effd",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/tfidfmodel.py#L467"
+  },
+  {
+    "file": "models/lsimodel.py",
+    "function": "stochastic_svd",
+    "start": 891,
+    "end": 1057,
+    "source_sha256": "dfc8803ab8e0603462de3dd482d34235f587b4d5a2a2d838361de9e14e1bfb0c",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/lsimodel.py#L891"
+  },
+  {
+    "file": "models/lsimodel.py",
+    "function": "add_documents",
+    "start": 467,
+    "end": 560,
+    "source_sha256": "dfc8803ab8e0603462de3dd482d34235f587b4d5a2a2d838361de9e14e1bfb0c",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/lsimodel.py#L467"
+  },
+  {
+    "file": "models/lsimodel.py",
+    "function": "__getitem__",
+    "start": 575,
+    "end": 643,
+    "source_sha256": "dfc8803ab8e0603462de3dd482d34235f587b4d5a2a2d838361de9e14e1bfb0c",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/lsimodel.py#L575"
+  },
+  {
+    "file": "interfaces.py",
+    "function": "__iter__",
+    "start": 76,
+    "end": 78,
+    "source_sha256": "41cc649a7c6d970bf0b465b6be051b2f1faa9dab429ff638c5eb1763d3759ff2",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/interfaces.py#L76"
+  },
+  {
+    "file": "interfaces.py",
+    "function": "__iter__",
+    "start": 161,
+    "end": 178,
+    "source_sha256": "41cc649a7c6d970bf0b465b6be051b2f1faa9dab429ff638c5eb1763d3759ff2",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/interfaces.py#L161"
+  },
+  {
+    "file": "interfaces.py",
+    "function": "_apply",
+    "start": 236,
+    "end": 252,
+    "source_sha256": "41cc649a7c6d970bf0b465b6be051b2f1faa9dab429ff638c5eb1763d3759ff2",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/interfaces.py#L236"
+  },
+  {
+    "file": "interfaces.py",
+    "function": "__iter__",
+    "start": 355,
+    "end": 398,
+    "source_sha256": "41cc649a7c6d970bf0b465b6be051b2f1faa9dab429ff638c5eb1763d3759ff2",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/interfaces.py#L355"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "build_vocab",
+    "start": 449,
+    "end": 498,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L449"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "prepare_vocab",
+    "start": 595,
+    "end": 778,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L595"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "create_binary_tree",
+    "start": 817,
+    "end": 823,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L817"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "make_cum_table",
+    "start": 825,
+    "end": 847,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L825"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "train",
+    "start": 964,
+    "end": 1099,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L964"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "_worker_loop",
+    "start": 1138,
+    "end": 1170,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L1138"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "_job_producer",
+    "start": 1172,
+    "end": 1241,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L1172"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "_get_next_alpha",
+    "start": 1441,
+    "end": 1463,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L1441"
+  },
+  {
+    "file": "models/word2vec.py",
+    "function": "_check_corpus_sanity",
+    "start": 1494,
+    "end": 1515,
+    "source_sha256": "d7633e7c432694e0a7440c72c84221fc763bde431a748fdb2461ed49ee671bab",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/word2vec.py#L1494"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "ft_ngram_hashes",
+    "start": 1326,
+    "end": 1347,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L1326"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "__init__",
+    "start": 274,
+    "end": 442,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L274"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "estimate_memory",
+    "start": 469,
+    "end": 497,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L469"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "_do_train_job",
+    "start": 516,
+    "end": 541,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L516"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "get_vector",
+    "start": 1085,
+    "end": 1130,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L1085"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "adjust_vectors",
+    "start": 1191,
+    "end": 1208,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L1191"
+  },
+  {
+    "file": "models/fasttext.py",
+    "function": "recalc_char_ngram_buckets",
+    "start": 1210,
+    "end": 1226,
+    "source_sha256": "49b6995b3256ec91902ba11f4c9ed220dc55b943735c25d98618d41563bca91d",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext.py#L1210"
+  },
+  {
+    "file": "utils.py",
+    "function": "_load_specials",
+    "start": 491,
+    "end": 556,
+    "source_sha256": "93483aa2190baf4ff00efe9f26ffa79b887fc8174db19e632a1d754e6e8cf6ba",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/utils.py#L491"
+  },
+  {
+    "file": "utils.py",
+    "function": "_smart_save",
+    "start": 576,
+    "end": 618,
+    "source_sha256": "93483aa2190baf4ff00efe9f26ffa79b887fc8174db19e632a1d754e6e8cf6ba",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/utils.py#L576"
+  },
+  {
+    "file": "utils.py",
+    "function": "save",
+    "start": 724,
+    "end": 767,
+    "source_sha256": "93483aa2190baf4ff00efe9f26ffa79b887fc8174db19e632a1d754e6e8cf6ba",
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/utils.py#L724"
+  },
+  {
+    "file": "models/fasttext_inner.pyx",
+    "declaration": "cdef void fasttext_fast_sentence_sg_neg(FastTextConfig *c, int i, int j) nogil:",
+    "start": 75,
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext_inner.pyx#L75"
+  },
+  {
+    "file": "models/fasttext_inner.pyx",
+    "declaration": "def train_batch_any(model, sentences, alpha, _work, _neu1):",
+    "start": 570,
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext_inner.pyx#L570"
+  },
+  {
+    "file": "models/fasttext_corpusfile.pyx",
+    "declaration": "def train_epoch_sg(",
+    "start": 101,
+    "url": "https://github.com/piskvorky/gensim/blob/4.3.0/gensim/models/fasttext_corpusfile.pyx#L101"
+  }
+]

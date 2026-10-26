@@ -1,0 +1,43 @@
+{
+  "python": "3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]",
+  "executable": "D:\\PostGraduate\\LLM\\hw2\\gensim-fasttext-news\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 16,
+  "packages": {
+    "gensim": "4.3.0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.1",
+    "scikit-learn": "1.2.2",
+    "matplotlib": "3.8.4",
+    "pandas": "2.2.3",
+    "torch": "2.5.1+cpu",
+    "threadpoolctl": "2.2.0"
+  },
+  "PYTHONHASHSEED": "0",
+  "gensim_FAST_VERSION": 0,
+  "threadpools": [
+    {
+      "filepath": "D:\\ProgramData\\Anaconda\\Library\\bin\\mkl_rt.2.dll",
+      "prefix": "mkl_rt",
+      "user_api": "blas",
+      "internal_api": "mkl",
+      "version": "2023.1-Product",
+      "num_threads": 12,
+      "threading_layer": "intel"
+    },
+    {
+      "filepath": "C:\\Users\\86183\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy.libs\\libopenblas_v0.3.20-571-g3dec11c6-gcc_10_3_0-c2315440d6b6cef5037bad648efc8c59.dll",
+      "prefix": "libopenblas",
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "version": "0.3.21.dev",
+      "num_threads": 16,
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "FastText_signature": "(self, sentences=None, corpus_file=None, sg=0, hs=0, vector_size=100, alpha=0.025, window=5, min_count=5, max_vocab_size=None, word_ngrams=1, sample=0.001, seed=1, workers=3, min_alpha=0.0001, negative=5, ns_exponent=0.75, cbow_mean=1, hashfxn=<built-in function hash>, epochs=5, null_word=0, min_n=3, max_n=6, sorted_vocab=1, bucket=2000000, trim_rule=None, batch_words=10000, callbacks=(), max_final_vocab=None, shrink_windows=True)",
+  "Word2Vec_signature": "(self, sentences=None, corpus_file=None, vector_size=100, alpha=0.025, window=5, min_count=5, max_vocab_size=None, sample=0.001, seed=1, workers=3, min_alpha=0.0001, sg=0, hs=0, negative=5, ns_exponent=0.75, cbow_mean=1, hashfxn=<built-in function hash>, epochs=5, null_word=0, trim_rule=None, sorted_vocab=1, batch_words=10000, compute_loss=False, callbacks=(), comment=None, max_final_vocab=None, shrink_windows=True)",
+  "ram_gib": 15.629627227783203
+}

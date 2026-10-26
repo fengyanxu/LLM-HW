@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "article and content isolation",
+    "date-group splits",
+    "33 classification rows",
+    "confusion matrix / accuracy consistency",
+    "15 model roundtrips",
+    "FastText vector composition",
+    "math delimiters",
+    "report links",
+    "12 PNG/SVG figures"
+  ]
+}

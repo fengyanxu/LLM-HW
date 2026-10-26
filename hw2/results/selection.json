@@ -1,0 +1,35 @@
+{
+  "selected_fasttext": "ft_alpha05",
+  "selection_metric": "six-class validation Macro-F1",
+  "selected": {
+    "method": "ft_alpha05",
+    "n_classes": 6,
+    "validation_macro_f1": 0.5488413005241178,
+    "C": 0.1,
+    "fit_select_seconds": 0.13949549999961164,
+    "n_train": 1364,
+    "n_validation": 394,
+    "train_seconds": 10.372032300001592,
+    "array_mib": 24.056884765625,
+    "parameters": {
+      "vector_size": 64,
+      "window": 5,
+      "min_count": 3,
+      "epochs": 5,
+      "alpha": 0.05,
+      "min_alpha": 0.0001,
+      "negative": 5,
+      "ns_exponent": 0.75,
+      "sample": 0.001,
+      "workers": 1,
+      "seed": 42,
+      "shrink_windows": true,
+      "min_n": 2,
+      "max_n": 4,
+      "bucket": 50000,
+      "sg": 1
+    },
+    "collision_fraction": 0.47002961582847846
+  },
+  "fixed_test_policy": "Sensitivity variants use validation scores; the selected variant is then evaluated on test."
+}

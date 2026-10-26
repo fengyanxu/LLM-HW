@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Software Framework for Topic Modelling with Large Corpora",
+    "authors": ["Radim Řehůřek", "Petr Sojka"],
+    "year": 2010,
+    "source": "LREC 2010 Workshop on New Challenges for NLP Frameworks",
+    "doi_or_url": "https://radimrehurek.com/lrec2010_final.pdf",
+    "verification_url": "https://radimrehurek.com/gensim/intro.html#academic-citing",
+    "fulltext_read_url": "https://www.fi.muni.cz/usr/sojka/papers/lrec2010-rehurek-sojka.pdf",
+    "citation_count_if_available": null,
+    "relevance_note": "Gensim 官方推荐引用；对照流式语料、稀疏文档、转换接口及早期 LSA 实现。",
+    "status": "verified_official_citation_and_fulltext",
+    "checked_date": "2026-10-14"
+  },
+  {
+    "title": "Enriching Word Vectors with Subword Information",
+    "authors": ["Piotr Bojanowski", "Edouard Grave", "Armand Joulin", "Tomas Mikolov"],
+    "year": 2017,
+    "source": "Transactions of the Association for Computational Linguistics, 5:135–146",
+    "doi_or_url": "https://aclanthology.org/Q17-1010/",
+    "arxiv": "1607.04606",
+    "citation_count_if_available": null,
+    "relevance_note": "Gensim 4.3.0 FastText 构造函数引用；对照字符子词、哈希桶、上下文目标及参数设置。",
+    "status": "verified_publisher_and_fulltext",
+    "checked_date": "2026-10-14"
+  },
+  {
+    "title": "Bag of Tricks for Efficient Text Classification",
+    "authors": ["Armand Joulin", "Edouard Grave", "Piotr Bojanowski", "Tomas Mikolov"],
+    "year": 2016,
+    "source": "arXiv preprint 1607.01759v3",
+    "doi_or_url": "https://arxiv.org/abs/1607.01759",
+    "citation_count_if_available": null,
+    "relevance_note": "用户提供 PDF；补充复现平均特征嵌入与线性监督分类结构，并测试词 unigram/bigram。",
+    "status": "verified_user_pdf_fulltext",
+    "checked_date": "2026-10-14"
+  }
+]

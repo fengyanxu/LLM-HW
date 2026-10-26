@@ -1,0 +1,7 @@
+﻿stage,condition,accuracy,macro_f1,test_n,train_seconds
+2,pretrained,0.9583,0.9583,24,4.999
+2,scratch,0.9167,0.9167,24,0.695
+4,pretrained,0.875,0.8745,48,5.283
+4,scratch,0.6458,0.6374,48,1.05
+8,pretrained,0.8125,0.8108,96,6.294
+8,scratch,0.375,0.3333,96,2.027

@@ -1,0 +1,43 @@
+[
+  {
+    "name": "word2vec",
+    "seconds": 124.23,
+    "vector_size": 100,
+    "vocab_size": 67863,
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 3,
+      "sg": 1,
+      "workers": 1,
+      "epochs": 5,
+      "seed": 42,
+      "negative": 5
+    },
+    "model": "models\\word2vec.model",
+    "segmented_sha256": "660c1181aa49edc266431b462ac22d1477b603b330e4ceee8bad093551458326",
+    "segmented_bytes": 25671719
+  },
+  {
+    "name": "fasttext",
+    "seconds": 158.13,
+    "vector_size": 100,
+    "vocab_size": 67863,
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 3,
+      "sg": 1,
+      "workers": 1,
+      "epochs": 5,
+      "seed": 42,
+      "negative": 5,
+      "min_n": 2,
+      "max_n": 4,
+      "bucket": 200000
+    },
+    "model": "models\\fasttext.model",
+    "segmented_sha256": "660c1181aa49edc266431b462ac22d1477b603b330e4ceee8bad093551458326",
+    "segmented_bytes": 25671719
+  }
+]

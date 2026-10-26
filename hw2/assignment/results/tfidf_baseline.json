@@ -1,0 +1,20 @@
+[
+  {
+    "stage": 2,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "features": 16826
+  },
+  {
+    "stage": 4,
+    "accuracy": 0.9583,
+    "macro_f1": 0.9583,
+    "features": 31956
+  },
+  {
+    "stage": 8,
+    "accuracy": 0.9271,
+    "macro_f1": 0.9265,
+    "features": 64938
+  }
+]

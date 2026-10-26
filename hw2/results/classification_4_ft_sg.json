@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "method": "ft_sg",
+    "n_classes": 4,
+    "validation_macro_f1": 0.524526696276791,
+    "C": 1.0,
+    "fit_select_seconds": 0.10016470000118716,
+    "n_train": 979,
+    "n_validation": 267,
+    "accuracy": 0.5,
+    "macro_f1": 0.479870690364776,
+    "weighted_f1": 0.48954110769843623,
+    "macro_f1_ci_low": 0.355912655768173,
+    "macro_f1_ci_high": 0.5598269344104643,
+    "n_test": 280,
+    "predict_seconds": 0.0002610000010463409
+  },
+  "validation_trials": [
+    {
+      "C": 0.1,
+      "validation_macro_f1": 0.5062601590300048
+    },
+    {
+      "C": 1.0,
+      "validation_macro_f1": 0.524526696276791
+    },
+    {
+      "C": 10.0,
+      "validation_macro_f1": 0.524526696276791
+    }
+  ],
+  "confusion_matrix": [
+    [
+      23,
+      9,
+      14,
+      13
+    ],
+    [
+      21,
+      31,
+      19,
+      18
+    ],
+    [
+      7,
+      5,
+      61,
+      7
+    ],
+    [
+      6,
+      5,
+      16,
+      25
+    ]
+  ],
+  "classes": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "classification_report": {
+    "01": {
+      "precision": 0.40350877192982454,
+      "recall": 0.3898305084745763,
+      "f1-score": 0.39655172413793105,
+      "support": 59
+    },
+    "02": {
+      "precision": 0.62,
+      "recall": 0.34831460674157305,
+      "f1-score": 0.4460431654676259,
+      "support": 89
+    },
+    "03": {
+      "precision": 0.5545454545454546,
+      "recall": 0.7625,
+      "f1-score": 0.6421052631578948,
+      "support": 80
+    },
+    "04": {
+      "precision": 0.3968253968253968,
+      "recall": 0.4807692307692308,
+      "f1-score": 0.43478260869565216,
+      "support": 52
+    },
+    "accuracy": 0.5,
+    "macro avg": {
+      "precision": 0.493719905825169,
+      "recall": 0.49535358649634503,
+      "f1-score": 0.479870690364776,
+      "support": 280
+    },
+    "weighted avg": {
+      "precision": 0.5142341947943452,
+      "recall": 0.5,
+      "f1-score": 0.48954110769843623,
+      "support": 280
+    }
+  }
+}

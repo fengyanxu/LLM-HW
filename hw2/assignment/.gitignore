@@ -1,0 +1,12 @@
+# 大型可重建产物不提交
+models/
+data/thucnews/raw.jsonl
+data/thucnews/batches/
+data/thucnews/clean.jsonl
+data/thucnews/segmented.txt
+data/peopledaily/articles.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/

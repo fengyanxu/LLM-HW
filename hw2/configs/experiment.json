@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "min_doc_tokens": 30,
+  "max_doc_tokens": 6000,
+  "external_token_budget": 250000,
+  "classes": ["01", "02", "03", "04", "05", "06"],
+  "stages": [2, 4, 6],
+  "train_last_day": 20,
+  "validation_last_day": 25,
+  "embedding": {
+    "vector_size": 64, "window": 5, "min_count": 3,
+    "epochs": 5, "alpha": 0.025, "min_alpha": 0.0001,
+    "negative": 5, "ns_exponent": 0.75, "sample": 0.001,
+    "workers": 1, "seed": 42, "shrink_windows": true
+  },
+  "fasttext": {"min_n": 2, "max_n": 4, "bucket": 50000},
+  "classifier_C": [0.1, 1.0, 10.0],
+  "variants": [
+    {"name": "w2v_cbow", "family": "word2vec", "sg": 0},
+    {"name": "w2v_sg", "family": "word2vec", "sg": 1},
+    {"name": "ft_cbow", "family": "fasttext", "sg": 0},
+    {"name": "ft_sg", "family": "fasttext", "sg": 1},
+    {"name": "ft_dim32", "family": "fasttext", "sg": 1, "vector_size": 32},
+    {"name": "ft_dim128", "family": "fasttext", "sg": 1, "vector_size": 128},
+    {"name": "ft_window2", "family": "fasttext", "sg": 1, "window": 2},
+    {"name": "ft_window8", "family": "fasttext", "sg": 1, "window": 8},
+    {"name": "ft_char3_6", "family": "fasttext", "sg": 1, "min_n": 3, "max_n": 6},
+    {"name": "ft_bucket10k", "family": "fasttext", "sg": 1, "bucket": 10000},
+    {"name": "ft_bucket200k", "family": "fasttext", "sg": 1, "bucket": 200000},
+    {"name": "ft_epochs10", "family": "fasttext", "sg": 1, "epochs": 10},
+    {"name": "ft_ns05", "family": "fasttext", "sg": 1, "ns_exponent": 0.5},
+    {"name": "ft_sample1e4", "family": "fasttext", "sg": 1, "sample": 0.0001},
+    {"name": "ft_alpha05", "family": "fasttext", "sg": 1, "alpha": 0.05}
+  ],
+  "paper_classifier": {"dim": 64, "bucket": 20000, "epochs": 30, "batch_size": 16, "lr_grid": [0.1, 0.5, 1.0], "max_tokens": 1200},
+  "bootstrap_repeats": 1000
+}

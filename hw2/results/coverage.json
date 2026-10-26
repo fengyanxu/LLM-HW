@@ -1,0 +1,291 @@
+{
+  "w2v_cbow": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 0.9550680814800853,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 0.9142690311826033,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 0.9080466534066167,
+      "zero_document_count": 0
+    }
+  },
+  "w2v_sg": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 0.9550680814800853,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 0.9142690311826033,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 0.9080466534066167,
+      "zero_document_count": 0
+    }
+  },
+  "w2v_sg_idf": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 0.9550680814800853,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 0.9142690311826033,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 0.9080466534066167,
+      "zero_document_count": 0
+    }
+  },
+  "ft_cbow": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_sg": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_sg_idf": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_dim32": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_dim128": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_window2": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_window8": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_char3_6": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_bucket10k": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_bucket200k": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_epochs10": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_ns05": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_sample1e4": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  },
+  "ft_alpha05": {
+    "train": {
+      "vocab_oov_rate": 0.04493191851991473,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "validation": {
+      "vocab_oov_rate": 0.08573096881739671,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    },
+    "test": {
+      "vocab_oov_rate": 0.09195334659338332,
+      "represented_token_rate": 1.0,
+      "zero_document_count": 0
+    }
+  }
+}

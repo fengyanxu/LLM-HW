@@ -1,0 +1,2 @@
+﻿method,n_classes,validation_macro_f1,C,fit_select_seconds,n_train,n_validation,accuracy,macro_f1,weighted_f1,macro_f1_ci_low,macro_f1_ci_high,n_test,predict_seconds
+selected_ft_alpha05,6,0.5488413005241178,0.1,0.14912919999915175,1364,394,0.40923076923076923,0.4119138381551708,0.4081771272799065,0.19617925735234226,0.49771389251435066,325,0.0004989000008208677

@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "method": "paper_bigram",
+    "n_classes": 2,
+    "validation_macro_f1": 0.8256340579710145,
+    "accuracy": 0.668918918918919,
+    "macro_f1": 0.6442133150174164,
+    "macro_f1_ci_low": 0.49237533806626094,
+    "macro_f1_ci_high": 0.7743006164058795,
+    "selected_lr": 1.0,
+    "selected_epoch": 25,
+    "fit_select_seconds": 13.637584199997946,
+    "feature_count": 35870,
+    "n_train": 484,
+    "n_validation": 140,
+    "n_test": 148
+  },
+  "classes": [
+    "01",
+    "02"
+  ],
+  "confusion_matrix": [
+    [
+      30,
+      29
+    ],
+    [
+      20,
+      69
+    ]
+  ]
+}

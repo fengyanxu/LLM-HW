@@ -1,0 +1,17 @@
+{
+  "raw_articles": 10000,
+  "dropped_short": 480,
+  "dropped_no_sentence": 95,
+  "dropped_duplicate": 86,
+  "dropped_empty": 5,
+  "kept_articles": 9334,
+  "sentences": 167518,
+  "tokens": 4056014,
+  "avg_sentences": 17.95,
+  "avg_tokens": 434.54,
+  "min_chars": 100,
+  "min_sentence_words": 3,
+  "jieba": "0.42.1",
+  "segmented_sha256": "660c1181aa49edc266431b462ac22d1477b603b330e4ceee8bad093551458326",
+  "clean_seconds": 25.52
+}

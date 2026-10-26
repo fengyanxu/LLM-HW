@@ -1,0 +1,44 @@
+[
+  {
+    "condition": "pretrained",
+    "epoch": 25,
+    "accuracy": 0.8125,
+    "macro_f1": 0.8108,
+    "train_seconds": 6.341
+  },
+  {
+    "condition": "pretrained",
+    "epoch": 50,
+    "accuracy": 0.8542,
+    "macro_f1": 0.8531,
+    "train_seconds": 9.213
+  },
+  {
+    "condition": "pretrained",
+    "epoch": 100,
+    "accuracy": 0.8958,
+    "macro_f1": 0.8956,
+    "train_seconds": 14.905
+  },
+  {
+    "condition": "scratch",
+    "epoch": 25,
+    "accuracy": 0.375,
+    "macro_f1": 0.3333,
+    "train_seconds": 2.234
+  },
+  {
+    "condition": "scratch",
+    "epoch": 50,
+    "accuracy": 0.3854,
+    "macro_f1": 0.2843,
+    "train_seconds": 3.929
+  },
+  {
+    "condition": "scratch",
+    "epoch": 100,
+    "accuracy": 0.8125,
+    "macro_f1": 0.8118,
+    "train_seconds": 7.535
+  }
+]

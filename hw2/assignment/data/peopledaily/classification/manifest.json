@@ -1,0 +1,94 @@
+{
+  "source": "PeopleDaily1998 1998-01..06",
+  "selection": "title keyword rules; at least 2 hits and no rival with 2 hits; month round-robin",
+  "classes": [
+    "体育",
+    "金融",
+    "教育",
+    "文化",
+    "科技",
+    "医疗",
+    "农业",
+    "法治"
+  ],
+  "per_class": 60,
+  "train_per_class": 48,
+  "test_per_class": 12,
+  "stages": {
+    "2": {
+      "classes": [
+        "体育",
+        "金融"
+      ],
+      "per_class": {
+        "体育": 60,
+        "金融": 60
+      },
+      "train_lines": 96,
+      "test_lines": 24
+    },
+    "4": {
+      "classes": [
+        "体育",
+        "金融",
+        "教育",
+        "文化"
+      ],
+      "per_class": {
+        "体育": 60,
+        "金融": 60,
+        "教育": 60,
+        "文化": 60
+      },
+      "train_lines": 192,
+      "test_lines": 48
+    },
+    "8": {
+      "classes": [
+        "体育",
+        "金融",
+        "教育",
+        "文化",
+        "科技",
+        "医疗",
+        "农业",
+        "法治"
+      ],
+      "per_class": {
+        "体育": 60,
+        "金融": 60,
+        "教育": 60,
+        "文化": 60,
+        "科技": 60,
+        "医疗": 60,
+        "农业": 60,
+        "法治": 60
+      },
+      "train_lines": 384,
+      "test_lines": 96
+    }
+  },
+  "split_seed": 42,
+  "max_body_words": 500,
+  "selected_csv_sha256": "2620e69b523ca1ca270f7c3d828225c72a4b2b38d046c43abd177fd6410301e0",
+  "candidate_counts": {
+    "体育": 164,
+    "金融": 142,
+    "教育": 109,
+    "文化": 84,
+    "科技": 65,
+    "医疗": 69,
+    "农业": 84,
+    "法治": 74
+  },
+  "relaxed_counts": {
+    "体育": 334,
+    "金融": 393,
+    "教育": 230,
+    "文化": 434,
+    "科技": 338,
+    "医疗": 199,
+    "农业": 360,
+    "法治": 224
+  }
+}

@@ -1,0 +1,7 @@
+﻿condition,epoch,accuracy,macro_f1
+pretrained,25,0.8125,0.8108
+pretrained,50,0.8542,0.8531
+pretrained,100,0.8958,0.8956
+scratch,25,0.375,0.3333
+scratch,50,0.3854,0.2843
+scratch,100,0.8125,0.8118

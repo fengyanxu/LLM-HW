@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "thucnews": {
+    "dataset": "Tongjilibo/THUCNews",
+    "revision": "ae77e363396e90b54cdaa9eafdbc5e102a3d4019",
+    "total_rows": 836075,
+    "groups": 100,
+    "per_group": 100
+  },
+  "embeddings": {
+    "vector_size": 100,
+    "window": 5,
+    "min_count": 3,
+    "epochs": 5,
+    "sg": 1,
+    "workers": 1,
+    "seed": 42,
+    "negative": 5,
+    "fasttext": {
+      "min_n": 2,
+      "max_n": 4,
+      "bucket": 200000
+    }
+  },
+  "classification": {
+    "classes": ["体育", "金融", "教育", "文化", "科技", "医疗", "农业", "法治"],
+    "per_class": 60,
+    "train_per_class": 48,
+    "test_per_class": 12,
+    "stages": [2, 4, 8],
+    "max_body_words": 500,
+    "min_body_words": 30,
+    "fasttext": {
+      "dim": 100,
+      "lr": 0.3,
+      "epoch": 25,
+      "wordNgrams": 2,
+      "loss": "softmax",
+      "thread": 1,
+      "seed": 42,
+      "minn": 0,
+      "maxn": 0,
+      "minCount": 1,
+      "minCountLabel": 0
+    }
+  }
+}
